@@ -1,0 +1,14 @@
+Factorial 2
+<?php 
+// Perform the arithmetic operation using PHP (Factorial calculation)
+
+$fact = 1;
+
+// Loop from 1 to 4
+for ($i = 1; $i <= 4; $i++) {
+    $fact *= $i; // Multiply each number to get the factorial
+}
+
+// Display the result
+echo "The factorial of 4 is " . $fact;
+?>
